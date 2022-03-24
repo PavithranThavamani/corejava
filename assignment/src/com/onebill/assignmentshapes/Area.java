@@ -1,6 +1,6 @@
 package com.onebill.assignmentshapes;
 
-public class Area  {
+public class Area extends Shape {
 
 	
 	public void RectangleArea(double length, double breadth) {

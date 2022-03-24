@@ -1,6 +1,6 @@
 package com.onebill.assignment5;
 
-public class BankB {
+public class BankB extends Bank {
 	
 	String money;
 	BankB(String str) {

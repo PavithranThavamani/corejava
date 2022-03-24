@@ -1,9 +1,15 @@
 package com.onebill.assignment5;
 
-public class BankA{
+public class BankA extends Bank{
 
-	
-	public void getBalance(String str) {
-		System.out.println(str+" dollars deposited...");
+	@Override
+	public void getBalance() {
+		System.out.println("100$ dollars deposited...");
 	}
+
+
+
+
+
+
 }

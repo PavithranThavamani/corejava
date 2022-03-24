@@ -1,9 +1,19 @@
 package com.onebill.assignment5;
 
-public class BankC {
+public class BankC extends Bank {
 	
-	public void getBalance() {
+	
+	@Override
+	 void getBalance() {
 		System.out.println("$200 dollars deposited...");
 	}
+
+	
+
+//	@Override
+//	void getBalance(String str) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 
 }
