@@ -7,6 +7,7 @@ public class Runtime {
 		int a, b;
 		RuntimeThrows runtimeThrows = new RuntimeThrows();
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("Enter Two Numbers :");
 		a = sc.nextInt();
 		b = sc.nextInt();
@@ -17,7 +18,7 @@ public class Runtime {
 			System.out.println(c);
 		} catch (ArithmeticException e) {
 			e.printStackTrace();
-			System.out.println("Enter the demon > 0");
+			System.out.println("Enter the value > 0");
 		}
 
 	}
