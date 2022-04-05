@@ -16,7 +16,6 @@ public class License {
 //			System.out.println("Enter valid age");
 //		}
 //	}
-
 	public void checkAge(int age) {
 
 		if (age >= 18) {
