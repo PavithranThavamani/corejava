@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+	<bean class="com.onebill.springcore.GirlFriend" name="gf1"
+		autowire="byType">
+		<property name="fullName">
+			<value>KylieJenner</value>
+		</property>
+		<property name="instaId">
+			<value>kylie</value>
+		</property>
+		<property name="bestQuality">
+			<value>modelling</value>
+		</property>
+
+
+	</bean>
+	<bean class="com.onebill.springcore.GirlFriend" name="gf2">
+		<property name="fullName">
+			<value>smriti</value>
+		</property>
+		<property name="instaId">
+			<value>mandanna</value>
+		</property>
+		<property name="bestQuality">
+			<value>Cricketer</value>
+		</property>
+
+
+	</bean>
+
+	<bean class="com.onebill.springcore.BoyFriend">
+		<constructor-arg value="suresh" />
+		<constructor-arg value="Surul" />
+		<constructor-arg value="Cook" />
+
+	</bean>
+	<bean class="com.onebill.springcore.BoyFriend">
+		<constructor-arg value="maddy" />
+		<constructor-arg value="mad" />
+		<constructor-arg value="funny" />
+
+	</bean>
+</beans>

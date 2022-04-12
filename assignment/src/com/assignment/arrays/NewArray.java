@@ -14,6 +14,7 @@ public class NewArray {
 		}else {
 			System.out.println("Conditions not met");
 		}
+		return false;
 		
 	}
 	public static void main(String[] args) {
